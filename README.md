@@ -57,14 +57,16 @@ Customers can authenticate using RFID cards, select products on a web interface,
 ---
 
 ##  Repository Structure
+```
 smart-convenient-store-rpi4/
 ├── code/
-│ ├── client/my-react-app/ # ReactJS frontend
-│ ├── server/ # NodeJS backend
-│ └── rfid.py # Python script (RFID, LCD, Servo control)
-├── image/ # Circuit diagrams & prototype photos
+│   ├── client/my-react-app/        # ReactJS frontend
+│   ├── server/                     # NodeJS backend (Express + MySQL)
+│   └── rfid.py                     # Python script (RFID, LCD, Servo control)
+├── image/                          # Circuit diagrams & prototype photos
 ├── smart-convenient-store-rpi4.pdf # Full project report
-└── README.md # This file
+└── README.md                       # Project documentation (this file)
+```
 
 
 ---
